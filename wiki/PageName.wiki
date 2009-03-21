@@ -30,9 +30,5 @@ for(i=0;i<cimg->height;i++) for(j=0;j<cimg->width;j++)
                        cimgA[i][j].r*0.299);
 Convert between color spaces:
 cvCvtColor(src,dst,code); // src -> dst
-
-  code    = CV_<X>2<Y>
-  <X>/<Y> = RGB, BGR, GRAY, HSV, YCrCb, XYZ, Lab, Luv, HLS
-
-e.g.: CV_BGR2GRAY, CV_BGR2HSV, CV_BGR2Lab
+ 
 }}}
