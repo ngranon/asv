@@ -7,15 +7,6 @@ Conversion of images from color to Grayscale
 
 = Details =
 {{{
-Image conversion
-
-Convert to a grayscale or color byte-image:
-cvConvertImage(src, dst, flags=0);
-
-  src = float/byte grayscale/color image
-  dst = byte grayscale/color image
-  flags = CV_CVTIMG_FLIP     (flip vertically)
-          CV_CVTIMG_SWAP_RB  (swap the R and B channels)
 Convert a color image to grayscale:
 
 Using the OpenCV conversion:
