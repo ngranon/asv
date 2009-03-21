@@ -6,7 +6,7 @@ Conversion of images from color to Grayscale
 
 
 = Details =
-
+<nowiki>
 Image conversion
 
 Convert to a grayscale or color byte-image:
@@ -35,3 +35,5 @@ cvCvtColor(src,dst,code); // src -> dst
   <X>/<Y> = RGB, BGR, GRAY, HSV, YCrCb, XYZ, Lab, Luv, HLS
 
 e.g.: CV_BGR2GRAY, CV_BGR2HSV, CV_BGR2Lab
+
+</<nowiki>
