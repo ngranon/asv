@@ -1,0 +1,25 @@
+#conversion of images from color to Grayscale
+
+# Introduction #
+
+Conversion of images from color to Grayscale
+
+
+# Details #
+```
+Convert a color image to grayscale:
+
+Using the OpenCV conversion:
+
+cvCvtColor(cimg,gimg,CV_BGR2GRAY); // cimg -> gimg
+
+Using a direct conversion:
+
+for(i=0;i<cimg->height;i++) for(j=0;j<cimg->width;j++) 
+  gimgA[i][j]= (uchar)(cimgA[i][j].b*0.114 + 
+                       cimgA[i][j].g*0.587 + 
+                       cimgA[i][j].r*0.299);
+Convert between color spaces:
+cvCvtColor(src,dst,code); // src -> dst
+ 
+```
